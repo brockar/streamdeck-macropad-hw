@@ -11,6 +11,7 @@ A simple handmade macropad with arduino pro micro and VIAL or QMK.
   - [Case](#case-1)
   - [Connection diagram](#connection-diagram)
   - [QMK/VIAL](#qmkvial-1)
+- [Referencias / References](#referencias--references)
 
 # ES
 Hacer un macropad con un arduino pro micro es fácil, ya que podemos hacerlo con VIAL o QMK.  
@@ -71,3 +72,6 @@ We write in QMK MSYS, `qmk compile -kb void16 -km default` to compile it in QMK.
 Type in QMK MSYS, `qmk compile -kb void16 -km default` to compile with VIAL.
 
 Then [load the firmware](https://github.com/brockar/redox-handwired-3dp#cargar-firmware) and that's it, we have our macropad.
+
+# Referencias / References 
+Macropad vial: [void16](https://github.com/victorlucachi/void16).
